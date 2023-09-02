@@ -114,7 +114,7 @@ namespace Ex01
                         Console.WriteLine(listaVendedores.mostrar());
                         break;
                 }
-                Console.WriteLine("Aperte qualquer tecla para continuar...");
+                Console.WriteLine("Aperte enter para continuar...");
                 Console.ReadLine();
                 Console.Clear();
             }
