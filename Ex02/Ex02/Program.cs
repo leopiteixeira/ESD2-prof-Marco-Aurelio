@@ -75,6 +75,15 @@ namespace Ex02
             return new Aluno(id, nome);
         }
 
+        static Aluno criarAlunoId()
+        {
+            int id;
+            Console.WriteLine("Digite o Id do aluno:");
+            id = Convert.ToInt32(Console.ReadLine());
+
+            return new Aluno(id, " ");
+        }
+
         static void Main(string[] args)
         {
             int sel = 1;
@@ -90,8 +99,7 @@ namespace Ex02
                     "5.Pesquisar disciplina\n" +
                     "6.Remover disciplina do curso\n" +
                     "7.Matricular aluno na disciplina\n" +
-                    "8.Remover aluno da disciplina\n" +
-                    "9.Pesquisar aluno");
+                    "8.Remover aluno da disciplina");
                 sel = Convert.ToInt32(Console.ReadLine());
                 Console.Clear();
                 switch (sel)
@@ -108,7 +116,7 @@ namespace Ex02
                     case 4: Console.WriteLine(pesqCurso(e1).adicionarDisciplina(criarDisciplina()) ? "Disciplina adicionada!" : "Falha ao adicionar a disciplina!"); 
                         break;
 
-                    case 5: Console.WriteLine(pesqCurso(e1).pesquisarDisciplina(criarDisciplinaId()).paString(1));
+                    case 5: Console.WriteLine(pesqDisciplina(e1).paString(1));
                         break;
 
                     case 6: Console.WriteLine(pesqCurso(e1).removerDisciplina(criarDisciplinaId()) ? "Disciplina removida!" : "Falha ao remover a disciplina");
@@ -116,6 +124,9 @@ namespace Ex02
 
                     case 7: Console.WriteLine(pesqDisciplina(e1).matricularAluno(criarAluno()) ? "Aluno matriculado!" : "Falha ao matricular aluno!");
                         break; 
+
+                    case 8: Console.WriteLine(pesqDisciplina(e1).desmatricularAluno(criarAlunoId()) ? "Aluno removido!" : "Falha ao remover o aluno!");
+                        break;
                 }
                 
             }
