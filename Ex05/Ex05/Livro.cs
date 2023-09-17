@@ -85,7 +85,7 @@ namespace Ex05
             {
                 return 0;
             }
-            return (this.qtdeDisponiveis() / this.qtdeExemplares());
+            return this.qtdeDisponiveis() / this.qtdeExemplares();
         }
 
         public Exemplar findExemplarDis()
