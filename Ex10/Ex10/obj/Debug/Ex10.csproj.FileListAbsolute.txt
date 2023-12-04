@@ -1,0 +1,8 @@
+C:\Users\leona\OneDrive\Área de Trabalho\ESD2-prof-Marco-Aurelio\Ex10\Ex10\obj\Debug\Ex10.csproj.AssemblyReference.cache
+C:\Users\leona\OneDrive\Área de Trabalho\ESD2-prof-Marco-Aurelio\Ex10\Ex10\obj\Debug\Ex10.csproj.SuggestedBindingRedirects.cache
+C:\Users\leona\OneDrive\Área de Trabalho\ESD2-prof-Marco-Aurelio\Ex10\Ex10\obj\Debug\Ex10.csproj.CoreCompileInputs.cache
+C:\Users\leona\OneDrive\Área de Trabalho\ESD2-prof-Marco-Aurelio\Ex10\Ex10\bin\Debug\Ex10.exe.config
+C:\Users\leona\OneDrive\Área de Trabalho\ESD2-prof-Marco-Aurelio\Ex10\Ex10\bin\Debug\Ex10.exe
+C:\Users\leona\OneDrive\Área de Trabalho\ESD2-prof-Marco-Aurelio\Ex10\Ex10\bin\Debug\Ex10.pdb
+C:\Users\leona\OneDrive\Área de Trabalho\ESD2-prof-Marco-Aurelio\Ex10\Ex10\obj\Debug\Ex10.exe
+C:\Users\leona\OneDrive\Área de Trabalho\ESD2-prof-Marco-Aurelio\Ex10\Ex10\obj\Debug\Ex10.pdb
